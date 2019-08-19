@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap');
+
+/* ---------------------------------------------- Colors */
+
+.dark-bg {
+    color: rgb(209, 149, 28);
+    background-color: rgba(29, 29, 29, 1);
+}
+.light-bg {
+    background-color: rgb(209, 149, 28);
+    color: rgb(29, 29, 29);
+}
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.yellow-divider {
+        background-color: rgb(209, 149, 28);
+}
+
+.dark-divider {
+        background-color: rgb(29, 29, 29);
+}
+
+/* ---------------------------------------------- Heading */
+
+h2,
+h3 {
+    font-family: "dancing script";
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+/* ---------------------------------------------- Header and navbar */
+
+.navbar {
+    background: none;
+}
+
+.navbar-light {
+    color: rgba(29, 29, 29, 1);
+}
+
+.jumbotron {
+    height: 90vh;
+    background: url(../images/mill-outside-full.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+.name {
+    color: rgb(209, 149, 28);
+    background-color: rgba(29, 29, 29, 0.8);
+    border: rgb(209, 149, 28) solid 1px;
+    height: 100px;
+    width: 400px;
+    max-width: 75vw;
+    padding-top: 25px;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 20vh;
+    text-align: center;
+    font-family: "dancing script";
+}
+
+/* ---------------------------------------------- About */
+
+/* ---------------------------------------------- Media */
+
+.carousel-item {
+    height: 75vh;
+    background-color: rgba(29, 29, 29, 0.2);
+}
+
+.sectioncontainer {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.carousel-item img {
+    margin: auto;
+    height: 75vh;
+}
+
+
