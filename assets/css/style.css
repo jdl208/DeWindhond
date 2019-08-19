@@ -6,10 +6,12 @@
     color: rgb(209, 149, 28);
     background-color: rgba(29, 29, 29, 1);
 }
+
 .light-bg {
     background-color: rgb(209, 149, 28);
     color: rgb(29, 29, 29);
 }
+
 .block-divider {
     width: 75px;
     height: 5px;
@@ -19,21 +21,41 @@
 }
 
 .yellow-divider {
-        background-color: rgb(209, 149, 28);
+    background-color: rgb(209, 149, 28);
 }
 
 .dark-divider {
-        background-color: rgb(29, 29, 29);
+    background-color: rgb(29, 29, 29);
+}
+
+.btn-yellow {
+    background-color: rgb(209, 149, 28);
+    border-color: rgb(209, 149, 28);
+}
+
+.btn-yellow:hover {
+    background-color: rgb(189, 129, 8);
+    border-color: rgb(189, 129, 8);
 }
 
 /* ---------------------------------------------- Heading */
 
 h2,
-h3 {
+h3,
+h4 {
     font-family: "dancing script";
     text-align: center;
     font-size: 3rem;
     padding-bottom: 10px;
+}
+
+h4 {
+    font-size: 2rem;
+
+}
+
+.media-icon {
+    font-size: 32px;
 }
 
 /* ---------------------------------------------- Header and navbar */
@@ -89,4 +111,51 @@ h3 {
     height: 75vh;
 }
 
+/* ---------------------------------------------- Contact */
 
+.footnote_opening {
+    font-size: smaller;
+    font-style: italic;
+}
+
+/*-------------------------------------------- History */
+
+.history-heading {
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.5em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: rgb(209, 149, 28);
+
+}
