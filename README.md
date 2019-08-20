@@ -24,4 +24,4 @@ Content is derived from the site <a href="https://www.molendewindhond.nl/" targe
 <h3>Media</h3>
 All the images and the video where taken from the website of the mill <a href="https://www.molendewindhond.nl/" target="_blank">(link)</a> and from their facebook page <a href="https://www.facebook.com/windmaalbedrijfdewindhond?pnref=story" target="_blank">(link)</a>.
 <h3>Acknowledgements</h3>
-For the structure of this readME I just the studentexample made by Hailey Adams of Code Institute.
+For the structure of this readME I just the studentexample made by Haley Schafer of Code Institute.
