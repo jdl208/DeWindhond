@@ -25,17 +25,17 @@
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item ml-auto">
-                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item ml-auto nav--link">
+                        <a class="nav-link" href="#home"><strong>Home</strong><span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item ml-auto">
-                        <a class="nav-link" href="#about">About</a>
+                    <li class="nav-item ml-auto nav--link">
+                        <a class="nav-link" href="#about"><strong>About</strong></a>
                     </li>
-                    <li class="nav-item ml-auto">
-                        <a class="nav-link" href="#media">Media</a>
+                    <li class="nav-item ml-auto nav--link">
+                        <a class="nav-link" href="#media"><strong>Media</strong></a>
                     </li>
-                    <li class="nav-item ml-auto">
-                        <a class="nav-link" href="#contact">Contact</a>
+                    <li class="nav-item ml-auto nav--link">
+                        <a class="nav-link" href="#contact"><strong>Contact</strong></a>
                     </li>
                 </ul>
             </div>
@@ -45,26 +45,14 @@
 
     <!-- About -->
 
-    <section class="dark-bg sectioncontainer" id="about">
+    <section class="light-bg sectioncontainer" id="about">
         <div class="container about">
             <h2><i class="far fa-list-alt media-icon"></i> About</h2>
-            <hr class="block-divider yellow-divider">
+            <hr class="block-divider dark-divider">
 
             <div class="row">
                 <div class="col-md-6">
-
-                    <p>Windmill "De Windhond" is a historical and valuable feature for the city of Woerden.</P>
-                    <p>The Windhond is a round stone mill that was built in 1755 in Woerden. Today the mill is well maintained and is an important part of the cityscape.</p>
-                    <p>The mill stands on one of the last pieces of city wall, originally part of a bastion belonging to the city walls of old Woerden. De Windhond has a flight of 25.2 meters. The mill was restored in 1984 and today it is still in use as
-                        a flour mill. The flour from the mill is used at various points of sale. In addition, a number of bakers in Woerden sell bread with flour from the mill. The interior of the mill is largely in authentic condition. The miller lives
-                        in the house at the bottom of the mill.
-                    </p>
-                </div>
-                <div class="col-md-1">
-                    
-                </div>
-                <div class="col-md-5">
-                    <h4>History</h4>
+                    <h4>Timeline</h4>
                     <div class="history-items">
                         <div class="timeline-item" data-dates="1498">
                             <p>The first mill was build on top of the city wall.</p>
@@ -80,6 +68,17 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6">
+                    <hr class="block-divider dark-divider d-md-none">
+                    <h4>History</h4>
+
+                    <p>Windmill "De Windhond" is a historical and valuable feature for the city of Woerden.</P>
+                    <p>The Windhond is a round stone mill that was built in 1755 in Woerden. Today the mill is well maintained and is an important part of the cityscape.</p>
+                    <p>The mill stands on one of the last pieces of city wall, originally part of a bastion belonging to the city walls of old Woerden. De Windhond has a flight of 25.2 meters. The mill was restored in 1984 and today it is still in use as
+                        a flour mill. The flour from the mill is used at various points of sale. In addition, a number of bakers in Woerden sell bread with flour from the mill. The interior of the mill is largely in authentic condition. The miller lives
+                        in the house at the bottom of the mill.
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -87,10 +86,10 @@
 
     <!-- Media section-->
 
-    <section id="media" class="sectioncontainer light-bg mediabox">
-        <div class="container ">
+    <section id="media" class="dark-bg mediabox">
+        <div class="container sectioncontainer ">
             <H2><i class="fas fa-photo-video media-icon"></i> Media</H2>
-            <hr class="block-divider dark-divider">
+            <hr class="block-divider yellow-divider">
             <div class="row">
                 <div class="col-md-6 imagebox">
                     <h3>Images</h3>
@@ -138,6 +137,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
+                    <hr class="block-divider yellow-divider d-md-none">
                     <h3>Meet the miller</h3>
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/lAjF5r5rAqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
@@ -147,10 +147,10 @@
 
     <!-- Contact-->
 
-    <section id="contact" class="sectioncontainer dark-bg">
+    <section id="contact" class="sectioncontainer light-bg">
         <div class="container">
             <h2><i class="fas fa-mobile-alt media-icon"></i> Contact</h2>
-            <hr class="block-divider yellow-divider">
+            <hr class="block-divider dark-divider">
             <div class="row">
                 <div class="col-md-6 contact_visiting">
                     <table>
@@ -172,28 +172,45 @@
 
                     </table>
                     <p class="footnote_opening">* Only when the mill is working.</p>
+                    <h5 class=""> </h5>
                     <h5><i class="fas fa-directions"></i> Address</h5>
-                    <p>Windmaalbedrijf de Windhond<br> Wilhelminaweg 1<br> 3441 XB Woerden</p>
+                    <p>Windmaalbedrijf de Windhond<br> Wilhelminaweg 1<br> 3441 XB Woerden
+                    </p>
+                    <h5><i class="fas fa-phone-alt"></i> +31 (0) 6 - 4205 1066</h5>
 
                 </div>
 
                 <div class="col-md-6">
                     <h5><i class="far fa-comments"></i> Contact us!</h5>
                     <div class="form-group">
-                        <input class="form-control" placeholder="Enter name"></input>
+                        <input type="text" class="form-control" placeholder="Enter name" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Enter email">
+                        <input type="email" class="form-control" placeholder="Enter email" required>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" rows="5" Placeholder="Enter your question or comment here. We usually reply within 5 working days."></textarea>
+                        <textarea class="form-control" rows="5" Placeholder="Enter your question or comment here. We usually reply within 5 working days." required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-yellow">Submit</button>
+                    <button type="submit" class="btn btn-primary btn-danger">Send</button>
                     </form>
                 </div>
             </div>
 
     </section>
+
+    <footer class="dark-bg">
+        <div class="row footer">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a class="light-link" href="https://www.facebook.com/windmaalbedrijfdewindhond?pnref=story"><i class="fab fa-facebook-square socialicon"></i></a></li>
+                    <li class="list-inline-item"><a class="light-link" href="#"><i class="fab fa-twitter-square socialicon"></i></a></li>
+                    <li class="list-inline-item"><a class="light-link" href="#"><i class="fab fa-instagram socialicon"></i></a></li>
+                    <li class="list-inline-item"><a class="light-link" href="#"><i class="fab fa-pinterest-square socialicon"></i></a></li>
+                    <li class="list-inline-item"><a class="light-link" href="#"><i class="fab fa-snapchat-square socialicon"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
