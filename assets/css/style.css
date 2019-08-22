@@ -60,6 +60,12 @@ body {
     text-align: center;
 }
 
+.btn--dark:hover {
+    color: #dec080;
+    background-color: #000;
+}
+
+
 /* ---------------------------------------------- Headings */
 
 h2,
