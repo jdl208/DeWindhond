@@ -244,8 +244,9 @@ h4 {
     margin: 0;
 }
 
-iframe {
-    margin: auto;
+.ytclip {
+text-align: center;
+padding: 0 20px;
 }
 
 /* ---------------------------------------------- Contact */
@@ -257,6 +258,10 @@ iframe {
 .contact_visiting table {
     text-align: left;
     margin: auto;
+}
+
+.contact_visiting h5 {
+    margin-top: 25px;
 }
 
 .footnote_opening {
