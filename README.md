@@ -16,6 +16,9 @@ I wanted to make a one page website which contains all the necessary information
 </ol>
 <h2>Testing</h2>
 I tested the website in multiple browsers. The smooth scrolling effect doesn't work on every browser, but I didn't want to use other javascript in this project besides the ones from bootstrap and font awesome, because that is outside the scope of this project.
+
+<br>
+The images in the header are not all in a good resolution. But ididn't want to use images that weren't really connected to De Windhond. When the site would go live. I would get better images.
 <h2>Deployment</h2>
 This site is hosted using GitHub pages, deployed directly from the master branch. The live site updates automatically each time there is a new push to the repository. You can git clone the code to run it locally on your machine.
 <h2>Credits</h2>
