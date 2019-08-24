@@ -136,7 +136,7 @@ h4 {
 }
 
 .bg-image-slider {
-    height: 85vh;
+    height: 95vh;
     width: 100%;
     animation-name: bgslider;
     animation-duration: 42s;

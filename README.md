@@ -1,7 +1,7 @@
 <h1>De Windhond</h1>
 Milestone 1 project: User Centric Frontend Development - Code Institute
 
-This is a webpage for an iconic building in my hometown. Their own website doesn't look so good. So I wanted to see if I could give it an upgrade.
+This is a webpage is made by Johan de Leeuw. It's for an iconic building in my hometown. Their own website doesn't look so good. So I wanted to see if I could give it an upgrade.
 
 <h2>Demo</h2>
 You an find a preview of the website <a href="https://jdl208.github.io/DeWindhond/" target="_blank">here</a>.
@@ -26,5 +26,3 @@ This site is hosted using GitHub pages, deployed directly from the master branch
 Content is derived from the site <a href="https://www.molendewindhond.nl/" target="_blank">(link)</a> of the mill and translated by myself.
 <h3>Media</h3>
 All the images and the video where taken from the website of the mill <a href="https://www.molendewindhond.nl/" target="_blank">(link)</a> and from their facebook page <a href="https://www.facebook.com/windmaalbedrijfdewindhond?pnref=story" target="_blank">(link)</a>.
-<h3>Acknowledgements</h3>
-For the structure of this readME I just the studentexample made by Haley Schafer of Code Institute.
